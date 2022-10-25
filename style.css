@@ -1,0 +1,73 @@
+.d-flex{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  background-color: blue;
+  color: white;
+  border: 2.5px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-box{
+  background-color: aqua;
+  margin: 1em;
+  height: 20px;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+.text{
+  width: 48%;
+  margin-left: 20%;
+}
+
+.picture{
+  height: 200px;
+  width: 200px;
+}
+
+.articles{
+  width: 30%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  flex-direction: column;
+}
+
+footer{
+  display: flex;
+  position: absolute;
+  background-color: blue;
+  border: 2px solid black;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+}
+
+.m-2{
+  margin: 2em;
+}
+
+.m-3{
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
